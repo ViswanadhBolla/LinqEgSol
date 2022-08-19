@@ -8,6 +8,7 @@ namespace LinqEg
 {
     internal class ProductClient
     {
+        //client class
         public static List<Product> prds = Product.getAllProds();
 
         public static void DisplayProducts()
